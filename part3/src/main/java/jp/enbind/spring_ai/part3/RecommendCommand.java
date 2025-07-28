@@ -89,7 +89,7 @@ public class RecommendCommand {
         }
         else if(q.category.equals("質問")){
             String replyTemplate = """
-                お客様から以下の質問を受けました。質問に文脈に合わせて目的地や旅行日程が明確になるような質問してください。
+                お客様から以下の質問を受けました。質問の文脈に合わせて目的地や旅行日程が明確になるように質問してください。
                 {subject}
                 """;
             PromptTemplate reply = PromptTemplate.builder()
