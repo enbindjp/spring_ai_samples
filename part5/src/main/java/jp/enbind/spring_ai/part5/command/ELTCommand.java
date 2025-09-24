@@ -64,7 +64,7 @@ public class ELTCommand {
                 PdfDocumentReaderConfig.builder()
                         .withPageTopMargin(marginTop) // マージン(上)を設定
                         .withPageBottomMargin(marginBottom) // マージン(下)を設定
-                        .withPagesPerDocument(perPage) // Document毎のページ数
+                        .withPagesPerDocument(perPage) // Documentごとのページ数
                         .build()
         );
 
@@ -169,10 +169,10 @@ public class ELTCommand {
             return;
         }
 
-        // (1) AIを使うためChatModelを準備する
+        // (1) AIを使うためにChatModelを準備する
         ChatModel model = context.getBean(ChatModel.class);
 
-        // (2) キーワードを作成する為のプロンプト
+        // (2) キーワードを作成するためのプロンプト
         String template = """
             以下の内容について、キーワードを%s個作成してください。また、出力はカンマ区切りで出力してください。
             
