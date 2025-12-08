@@ -4,7 +4,7 @@
       "command": "java",
       "args": [
         "-jar",
-        "<path_to_mcp_server>/build/libs/mcp-0.0.1.jar"
+        "<path_to_mcp_jar_file>/mcp-0.0.1.jar"
       ]
     }
   }
