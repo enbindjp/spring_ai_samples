@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "java",
+      "args": [
+        "-jar",
+        "<path_to_mcp_server>/build/libs/mcp-0.0.1.jar"
+      ]
+    }
+  }
+}
