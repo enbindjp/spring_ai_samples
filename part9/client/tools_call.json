@@ -1,0 +1,11 @@
+{
+  "jsonrpc": "2.0",
+  "id": 20,
+  "method": "tools/call",
+  "params": {
+    "name": "find_file_by_name_pattern_sync",
+    "arguments": {
+      "pattern": "**/*.java"
+    }
+  }
+}

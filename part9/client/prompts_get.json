@@ -1,0 +1,11 @@
+{
+  "jsonrpc": "2.0",
+  "id": 30,
+  "method": "prompts/get",
+  "params": {
+    "name": "file-mcp-prompt",
+    "arguments": {
+      "question": "このファイルの内容を要約して"
+    }
+  }
+}
