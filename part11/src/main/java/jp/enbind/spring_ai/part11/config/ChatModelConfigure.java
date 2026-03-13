@@ -31,7 +31,7 @@ public class ChatModelConfigure {
      * @return
      */
     @Bean(name = "customOpenAIChatClient")
-    public ChatClient createOpenAIChatModel(@Qualifier("openAiChatModel") ChatModel chatModel){
+    public ChatClient createOpenAIChatClient(@Qualifier("openAiChatModel") ChatModel chatModel){
         return ChatClient.builder(chatModel)
                 .defaultOptions(
                         OpenAiChatOptions.builder()
